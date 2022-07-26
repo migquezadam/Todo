@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		387CC8646BBD0ED667B6472D /* libPods-Todo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70D581862503BE7FB4D0EA7 /* libPods-Todo.a */; };
 		4B780357288F7C5D0059AA45 /* TodoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B780356288F7C5D0059AA45 /* TodoSectionController.m */; };
-		4B78035A288F7C800059AA45 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B780359288F7C800059AA45 /* TodoCell.m */; };
+		4B78035D288F7D9D0059AA45 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78035C288F7D9D0059AA45 /* TodoCell.m */; };
+		4B780360288F7E850059AA45 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78035F288F7E850059AA45 /* TodoViewController.m */; };
 		4B9B5373288F7ABB003FC745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B5372288F7ABB003FC745 /* AppDelegate.m */; };
 		4B9B5376288F7ABB003FC745 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B5375288F7ABB003FC745 /* SceneDelegate.m */; };
 		4B9B5379288F7ABB003FC745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B5378288F7ABB003FC745 /* ViewController.m */; };
@@ -22,8 +23,10 @@
 /* Begin PBXFileReference section */
 		4B780355288F7C5D0059AA45 /* TodoSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoSectionController.h; sourceTree = "<group>"; };
 		4B780356288F7C5D0059AA45 /* TodoSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoSectionController.m; sourceTree = "<group>"; };
-		4B780358288F7C800059AA45 /* TodoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TodoCell.h; path = /Users/miguelquezada/Downloads/ios/development/Todo/Todo/TodoCell.h; sourceTree = "<absolute>"; };
-		4B780359288F7C800059AA45 /* TodoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TodoCell.m; path = /Users/miguelquezada/Downloads/ios/development/Todo/Todo/TodoCell.m; sourceTree = "<absolute>"; };
+		4B78035B288F7D9D0059AA45 /* TodoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		4B78035C288F7D9D0059AA45 /* TodoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
+		4B78035E288F7E850059AA45 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		4B78035F288F7E850059AA45 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
 		4B9B536E288F7ABB003FC745 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9B5371288F7ABB003FC745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B9B5372288F7ABB003FC745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,8 +87,6 @@
 			children = (
 				4B9B5371288F7ABB003FC745 /* AppDelegate.h */,
 				4B9B5372288F7ABB003FC745 /* AppDelegate.m */,
-				4B780358288F7C800059AA45 /* TodoCell.h */,
-				4B780359288F7C800059AA45 /* TodoCell.m */,
 				4B9B5374288F7ABB003FC745 /* SceneDelegate.h */,
 				4B9B5375288F7ABB003FC745 /* SceneDelegate.m */,
 				4B9B5377288F7ABB003FC745 /* ViewController.h */,
@@ -97,6 +98,10 @@
 				4B9B5383288F7ABD003FC745 /* main.m */,
 				4B780355288F7C5D0059AA45 /* TodoSectionController.h */,
 				4B780356288F7C5D0059AA45 /* TodoSectionController.m */,
+				4B78035B288F7D9D0059AA45 /* TodoCell.h */,
+				4B78035C288F7D9D0059AA45 /* TodoCell.m */,
+				4B78035E288F7E850059AA45 /* TodoViewController.h */,
+				4B78035F288F7E850059AA45 /* TodoViewController.m */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -224,10 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B780360288F7E850059AA45 /* TodoViewController.m in Sources */,
 				4B9B5379288F7ABB003FC745 /* ViewController.m in Sources */,
 				4B9B5373288F7ABB003FC745 /* AppDelegate.m in Sources */,
 				4B780357288F7C5D0059AA45 /* TodoSectionController.m in Sources */,
-				4B78035A288F7C800059AA45 /* TodoCell.m in Sources */,
+				4B78035D288F7D9D0059AA45 /* TodoCell.m in Sources */,
 				4B9B5384288F7ABD003FC745 /* main.m in Sources */,
 				4B9B5376288F7ABB003FC745 /* SceneDelegate.m in Sources */,
 			);
